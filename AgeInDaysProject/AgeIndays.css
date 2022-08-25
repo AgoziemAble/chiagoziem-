@@ -1,0 +1,53 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+h1{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.buttons{
+    padding: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    margin: 2px;
+    padding: 2px;
+    height: 30px;
+    width: 100px;
+    text-transform: capitalize;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.click-me{
+    color: white;
+    background-color: rgb(46, 116, 201);
+}
+
+.reset{
+    color: white;
+    background-color: rgb(221, 12, 12);
+}
+
+#result {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(10, 57, 10);
+    color: white;
+    border-radius: 10px;
+    padding: .01em;
+    margin: 10px;
+
+}

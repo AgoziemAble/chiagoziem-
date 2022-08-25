@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="/RockPaperScissors/index.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h2>Challenge 3: Rock Paper scissors</h2>
+
+        <div class="score-record-div">
+            <h3 class="human-score">Your score: <span class="human-score-span">0</span> </h3>
+            <h3 class="draw-score">Draw: <span class="draw-score-span">0</span></h3>
+            <h3 class="computer-score">Computer score: <span class="computer-score-span">0</span></h3>
+        </div>
+                
+        <div class="container-2 rps-div" id="rps-flex-box-div">
+            <img  class="rock" id="rock" src="/RockPaperScissors/images-rps/rock.png" alt="" onclick="rpsGame(this)">        
+            <img class="paper" id="paper" src="/RockPaperScissors/images-rps/paper.png" alt="" onclick="rpsGame(this)">
+            <img class="scissors" id="scissors" src="/RockPaperScissors/images-rps/scissors.png" alt="" onclick="rpsGame(this)">
+        </div>
+    </div>
+
+    
+
+
+    <script src="/RockPaperScissors/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #170c1c;
+}
+.naveBar, .menuDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.naveBar {
+    border: 1px solid #a213e0;
+}
+
+.close-menu {
+    display: none;
+}
+
+.logoDiv {
+    position: relative;
+    top: 17px;
+    left: 15px;
+}
+
+.welcome-sec {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #21062d;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 1em;
+}
+.image-div img {
+    margin: 20px;
+    position: relative;
+    opacity: 30%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+h1 {
+    color: rgb(155, 5, 255);
+    font-size: xx-large;
+    letter-spacing: .3em;
+    padding: .5em;
+    text-shadow: 2px 2px #b362d9;
+    line-height: 1em;
+}
+
+h2{
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: .5em;
+    color: #a213e0;
+
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #855c97;
+}
+
+.logoDiv a {
+    text-decoration: none;
+    border: 1px solid #855c97;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+img {
+    background: white;
+    border-radius: 2px;
+}
+
+a {
+    color: #a213e0;
+}
+
+span {
+    color: #7313e0;
+    font-size: small;
+}
+
+.social-media  {
+    position: relative;
+    top: 70px;
+    opacity: 50%;
+}
+
+.menu-window a{
+    line-height: 2em;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+   
+}
+
+.menu-window {
+    max-width: 500px;
+    width: 250px;
+    max-height: 1000px;
+    height: 300px;
+    background-color: rgb(91, 13, 235);
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 76px;
+    right: 0%;
+    background-color: #7313e0;
+    display: none;
+    
+}
+
+.Rps, .Aid {
+    width: 200px;
+    margin: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1em;
+    border-radius: 1em;
+    background-color: #21062d;
+    margin: 20px;
+}
+
+.projects div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #7313e0;
+    border-radius: 1em;
+
+}
+
+.projects div p, .projects div h2 {
+    margin: 2px;
+    letter-spacing: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 2px;
+}
+
+footer div a {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
